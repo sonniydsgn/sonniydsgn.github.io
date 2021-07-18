@@ -64,6 +64,10 @@ body {
   color: #000;
 }
 
+._title {
+  text-align: center;
+}
+
 /*	Common	*/
 
 .container {
@@ -120,6 +124,7 @@ body {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  text-align: center;
 }
 
 .work__item:hover {
@@ -167,7 +172,12 @@ body {
 }
 
 .demo__title {
+  margin-bottom: 1rem;
+}
+
+.demo__desc {
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .demo__list {
